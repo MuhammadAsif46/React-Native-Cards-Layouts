@@ -4,7 +4,7 @@ import { Image, StyleSheet, Text, View } from "react-native";
 export default function FancyCard() {
   return (
     <View>
-      <Text style={styles.headingText}>Trending Places</Text>
+      <Text style={styles.headingText}>Trending Place</Text>
       <View style={[styles.card, styles.cardElevated]}>
         <Image
           source={{
