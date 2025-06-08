@@ -1,3 +1,4 @@
+import ActionCard from "@/components/ActionCard";
 import ElevatedCards from "@/components/ElevatedCards";
 import FancyCard from "@/components/FancyCard";
 import FlatCard from "@/components/FlatCard";
@@ -12,6 +13,7 @@ export default function Index() {
         <ElevatedCards />
         <FancyCard />
         {/* <FancyCard /> */}
+        <ActionCard />
       </ScrollView>
     </SafeAreaView>
   );
