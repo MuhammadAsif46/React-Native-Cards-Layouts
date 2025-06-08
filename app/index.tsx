@@ -1,23 +1,16 @@
-import ActionCard from "@/components/ActionCard";
-import ContactList from "@/components/ContactList";
-import ElevatedCards from "@/components/ElevatedCards";
-import FancyCard from "@/components/FancyCard";
-import FlatCard from "@/components/FlatCard";
+import PasswordGenerator from "@/components/PasswordGenerator";
 import React from "react";
-import { SafeAreaView, ScrollView, StyleSheet } from "react-native";
+import { StyleSheet, View } from "react-native";
 
-export default function Index() {
+
+
+export default function index() {
+
+
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: "#fff" }}>
-      <ScrollView>
-        <FlatCard />
-        <ElevatedCards />
-        <FancyCard />
-        {/* <FancyCard /> */}
-        <ContactList />
-        <ActionCard />
-      </ScrollView>
-    </SafeAreaView>
+    <View>
+     <PasswordGenerator />
+    </View>
   );
 }
 
