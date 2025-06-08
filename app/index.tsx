@@ -1,4 +1,5 @@
 import ElevatedCards from "@/components/ElevatedCards";
+import FancyCard from "@/components/FancyCard";
 import FlatCard from "@/components/FlatCard";
 import React from "react";
 import { SafeAreaView, ScrollView, StyleSheet } from "react-native";
@@ -9,6 +10,7 @@ export default function Index() {
       <ScrollView>
         <FlatCard />
         <ElevatedCards />
+        <FancyCard />
       </ScrollView>
     </SafeAreaView>
   );
