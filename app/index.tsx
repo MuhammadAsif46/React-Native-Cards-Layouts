@@ -11,6 +11,7 @@ export default function Index() {
         <FlatCard />
         <ElevatedCards />
         <FancyCard />
+        {/* <FancyCard /> */}
       </ScrollView>
     </SafeAreaView>
   );
